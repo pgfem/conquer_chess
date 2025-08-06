@@ -1,0 +1,25 @@
+<map id="include/sfml_helper.h" name="include/sfml_helper.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="229,5,391,31"/>
+<area shape="rect" id="Node000002" href="$d7/db1/ccfwd_8h.html" title=" " alt="" coords="5,79,76,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="267,33,90,80,89,75,266,28"/>
+<area shape="rect" id="Node000003" href="$d8/d10/chess__color_8h.html" title=" " alt="" coords="101,79,210,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="286,33,194,75,192,70,284,28"/>
+<area shape="rect" id="Node000007" href="$d4/d78/screen__rect_8h.html" title=" " alt="" coords="410,79,519,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="336,28,428,70,426,75,334,33"/>
+<area shape="rect" id="Node000009" href="$dc/dd7/piece__action__type_8h.html" title=" " alt="" coords="234,79,386,104"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="313,31,313,65,307,65,307,31"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="543,79,690,104"/>
+<area shape="poly" id="edge13_Node000001_Node000010" title=" " alt="" coords="360,28,554,73,553,78,359,33"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="335,225,399,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="160,103,173,139,184,159,198,175,227,195,259,210,322,228,320,233,257,215,224,200,195,179,180,162,168,141,155,105"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="75,152,134,177"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="149,106,123,142,119,139,145,103"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="209,152,272,177"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="171,102,218,141,215,145,167,106"/>
+<area shape="poly" id="edge9_Node000007_Node000004" title=" " alt="" coords="482,102,498,117,513,136,521,157,521,168,516,179,495,201,469,217,441,228,414,234,412,229,439,223,467,212,492,197,512,176,516,167,516,158,509,139,494,121,478,106"/>
+<area shape="rect" id="Node000008" href="$dd/d3e/screen__coordinate_8h.html" title=" " alt="" coords="348,152,501,177"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="460,106,440,141,436,139,456,103"/>
+<area shape="poly" id="edge8_Node000008_Node000004" title=" " alt="" coords="417,179,387,216,383,213,413,176"/>
+<area shape="poly" id="edge11_Node000009_Node000004" title=" " alt="" coords="316,104,339,176,357,212,352,215,334,178,310,105"/>
+<area shape="poly" id="edge12_Node000009_Node000006" title=" " alt="" coords="300,106,263,144,259,140,297,102"/>
+</map>

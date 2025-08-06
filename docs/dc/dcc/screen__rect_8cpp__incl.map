@@ -1,0 +1,16 @@
+<map id="src/screen_rect.cpp" name="src/screen_rect.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="229,5,375,31"/>
+<area shape="rect" id="Node000002" href="$d4/d78/screen__rect_8h.html" title=" " alt="" coords="85,79,194,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="277,33,180,75,177,71,275,28"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="218,79,287,104"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="296,33,271,69,266,66,292,29"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="311,79,391,104"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="312,29,338,66,333,69,308,33"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="415,79,490,104"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="327,28,417,70,414,75,325,33"/>
+<area shape="rect" id="Node000003" href="$dd/d3e/screen__coordinate_8h.html" title=" " alt="" coords="5,152,159,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="132,106,102,143,98,139,128,103"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="107,225,171,251"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="150,103,162,125,173,151,174,168,171,185,158,215,153,212,166,184,169,168,167,153,158,127,145,106"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="94,176,123,213,119,216,89,179"/>
+</map>

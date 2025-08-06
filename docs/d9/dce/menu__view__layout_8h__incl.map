@@ -1,0 +1,17 @@
+<map id="include/menu_view_layout.h" name="include/menu_view_layout.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="131,5,339,31"/>
+<area shape="rect" id="Node000002" href="$d2/d17/menu__view__item_8h.html" title=" " alt="" coords="5,79,152,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="211,33,118,75,116,70,209,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="82,152,145,177"/>
+<area shape="poly" id="edge8_Node000001_Node000003" title=" " alt="" coords="227,33,166,106,134,144,130,140,162,102,223,29"/>
+<area shape="rect" id="Node000004" href="$d4/d78/screen__rect_8h.html" title=" " alt="" coords="227,79,336,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="245,30,268,66,264,69,240,32"/>
+<area shape="rect" id="Node000007" href="$db/d51/layout_8h.html" title=" " alt="" coords="360,79,435,104"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="262,28,359,71,357,75,260,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,103,104,138,99,141,82,106"/>
+<area shape="rect" id="Node000005" href="$dd/d3e/screen__coordinate_8h.html" title=" " alt="" coords="186,152,339,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="281,105,272,140,267,138,276,104"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="288,225,352,251"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="304,102,331,122,353,151,357,168,355,185,340,215,336,213,350,183,352,168,348,153,327,126,301,106"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="274,176,304,213,300,216,270,179"/>
+</map>
