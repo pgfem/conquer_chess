@@ -59,11 +59,13 @@ build_script:
   # - move SFML-3.0.0 SFML
 
   - cd conquer-chess
-  - qmake "DEFINES+=LOGIC_ONLY INCLUDEPATH+=\"../magic_enum/include ../chess-library ../SFGraphing\" CONFIG+=c++17" game.pro
+  # qmake "DEFINES+=LOGIC_ONLY INCLUDEPATH+=\"../magic_enum/include ../chess-library ../SFGraphing\" CONFIG+=c++17" game.pro
+  - qmake DEFINES+=LOGIC_ONLY INCLUDEPATH+=../magic_enum/include INCLUDEPATH+=../chess-library INCLUDEPATH+=../SFGraphing CONFIG+=c++17 game.pro
+
 
   
   #- qmake "DEFINES+=LOGIC_ONLY INCLUDEPATH+=../magic_enum/include INCLUDEPATH+=../chess-library INCLUDEPATH+=../SFGraphing CONFIG+=c++17" game.pro
-  - mingw32-make
+  - mingw32-make release
 
  
  
