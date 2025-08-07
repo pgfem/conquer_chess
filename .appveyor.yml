@@ -91,7 +91,7 @@ build_script:
   # Conquer Chess
   - echo "Building Conquer Chess"
 
-  - qmake game.pro
+  
 
   
 
