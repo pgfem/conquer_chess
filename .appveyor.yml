@@ -48,16 +48,19 @@ build_script:
   - dir
   - dir SFML-3.0.0
   - rename SFML-3.0.0 SFML
+  
   - echo "Fixing std::byte -> unsigned char in SFML"
   - powershell -Command "(Get-Content SFML/include/SFML/System/Utf.inl) -replace 'std::byte', 'unsigned char' | Set-Content SFML/include/SFML/System/Utf.inl"
-  - qmake "DEFINES+=LOGIC_ONLY" game.pro
-  - mingw32-make
+
   - dir
   - dir SFML
   - dir SFML\include
   - dir SFML\lib
   # - move SFML-3.0.0 SFML
   - cd conquer-chess
+  - qmake "DEFINES+=LOGIC_ONLY" game.pro
+  - mingw32-make
+
   # - dir
   # magic_enum, download
   - echo "Download magic_enum"
@@ -88,7 +91,7 @@ build_script:
   # Conquer Chess
   - echo "Building Conquer Chess"
 
-  -qmake game.pro
+  - qmake game.pro
 
   
 
