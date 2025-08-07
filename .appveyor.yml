@@ -11,11 +11,8 @@ install:
   #   https://www.appveyor.com/docs/windows-images-software/,
   #   but it does not exist anymore :-/
   # - set QTDIR=C:\Qt\5.6.3\mingw492_32
-  - set QTDIR=C:\Qt\5.12.12\mingw73_64
-  - set PATH=%QTDIR%\bin;%PATH%
-
-  #- set QTDIR=C:\Qt\6.8.1\mingw_64
-  #- set PATH=%PATH%;%QTDIR%\bin
+  - set QTDIR=C:\Qt\6.8.1\mingw_64
+  - set PATH=%PATH%;%QTDIR%\bin
   # Boost
   - set PATH=%PATH%;C:\Libraries\boost_1_86_0
   # SFML (TODO)
@@ -37,9 +34,9 @@ build_script:
   #- dir C:\cygwin
   #- dir C:\cygwin\bin
   - dir C:\Qt
-  - dir C:\Qt\5.12.12
-  - dir C:\Qt\5.12.12\mingw_64
-  - dir C:\Qt\5.12.12\mingw_64\bin
+  - dir C:\Qt\6.8.1
+  - dir C:\Qt\6.8.1\mingw_64
+  - dir C:\Qt\6.8.1\mingw_64\bin
   - dir C:\Libraries
   - dir C:\Libraries\boost_1_86_0
   # Find out current folder's content
@@ -51,28 +48,12 @@ build_script:
   - dir
   - dir SFML-3.0.0
   - rename SFML-3.0.0 SFML
-  
-  - echo "Fixing std::byte -> unsigned char in SFML"
-  - powershell -Command "(Get-Content SFML/include/SFML/System/Utf.inl) -replace 'std::byte', 'unsigned char' | Set-Content SFML/include/SFML/System/Utf.inl"
-
   - dir
   - dir SFML
   - dir SFML\include
   - dir SFML\lib
   # - move SFML-3.0.0 SFML
-
   - cd conquer-chess
-  # qmake "DEFINES+=LOGIC_ONLY INCLUDEPATH+=\"../magic_enum/include ../chess-library ../SFGraphing\" CONFIG+=c++17" game.pro
-  - qmake DEFINES+=LOGIC_ONLY INCLUDEPATH+=../magic_enum/include INCLUDEPATH+=../chess-library INCLUDEPATH+=../SFGraphing CONFIG+=c++17 game.pro
-
-
-  
-  #- qmake "DEFINES+=LOGIC_ONLY INCLUDEPATH+=../magic_enum/include INCLUDEPATH+=../chess-library INCLUDEPATH+=../SFGraphing CONFIG+=c++17" game.pro
-  - mingw32-make release
-
- 
- 
-
   # - dir
   # magic_enum, download
   - echo "Download magic_enum"
@@ -102,12 +83,7 @@ build_script:
   - cd conquer-chess
   # Conquer Chess
   - echo "Building Conquer Chess"
-
-
-
-
-  
-
+  - qmake game.pro
   # No idea what 'mingw32-cd' does ...
   # - mingw32-cd
   # - make release
