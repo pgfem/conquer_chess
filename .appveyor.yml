@@ -83,7 +83,11 @@ build_script:
   - cd conquer-chess
   # Conquer Chess
   - echo "Building Conquer Chess"
-  - qmake game.pro
+
+  - echo "Patching SFML to avoid std::byte errors"
+  - powershell -Command "(Get-Content ../SFML/include/SFML/System/Utf.inl).Replace('std::byte', 'unsigned char') | Set-Content ../SFML/include/SFML/System/Utf.inl"
+  - qmake "DEFINES+=LOGIC_ONLY" game.pro
+
   # No idea what 'mingw32-cd' does ...
   # - mingw32-cd
   # - make release
