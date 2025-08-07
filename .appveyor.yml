@@ -60,7 +60,7 @@ build_script:
 
   - cd conquer-chess
   - qmake "DEFINES+=LOGIC_ONLY INCLUDEPATH+=../magic_enum/include INCLUDEPATH+=../chess-library INCLUDEPATH+=../SFGraphing CONFIG+=c++17" game.pro
-  - mingw32-make.exe release
+  - mingw32-make
 
  
  
@@ -95,7 +95,8 @@ build_script:
   # Conquer Chess
   - echo "Building Conquer Chess"
 
-  
+
+
 
   
 
